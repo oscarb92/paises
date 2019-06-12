@@ -1,0 +1,20 @@
+[
+	{
+		"name": "Colombia",
+		"ciudad": [
+			{
+				"Bolivar",
+				"Antioquía"
+			}
+		]
+	},
+	{
+		"name": "Argentina",
+		"ciudad": [
+			{
+				"Buenos Aires",
+				"La Paz"
+			}
+		]
+	}
+]
