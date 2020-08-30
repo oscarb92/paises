@@ -1,0 +1,347 @@
+/* Credits for Woocommerce styles */
+
+.credits-for-woocommerce {
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.credits-for-woocommerce .wc-cs-mydashboard {
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 15px;
+	border: 2px solid #333;
+	background: #fefefe;
+	border-radius: 5px;
+	box-shadow: 0 0 3px #333 inset;
+}
+
+.credits-for-woocommerce .wc-cs-mydashboard .wc-cs-file-attachments {
+	width:100%;
+	float:left;
+}
+
+.wc-cs-mydashboard .wc-cs-file-attachments table {
+	width:100%;
+	float:left;
+	border-collapse: collapse;
+	border-top: 1px solid #ccc;
+	border-bottom: none;
+	text-align: left;
+}
+
+.wc-cs-mydashboard .wc-cs-file-attachments table tr:nth-child(2n){
+	background: #f1f1f1;
+}
+
+.wc-cs-mydashboard .wc-cs-file-attachments table td {
+	border-bottom:1px solid #ccc;
+}
+
+.wc-cs-mydashboard .wc-cs-file-attachments p .wc-cs-add-file {
+	display: table-cell;
+	margin-left: 0px;   
+	padding: 5px 10px;
+	color: #fff;
+	background: #28bf85;
+	border: none;
+	border-radius: 2px;
+	box-shadow: 0 0 5px #000 inset;
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.wc-cs-mydashboard .wc-cs-file-attachments table td .wc-cs-delete-file {
+	display: inline-block;
+	margin: 0;   
+	padding: 5px 10px;
+	color: #fff;
+	background: #f00;
+	border: none;
+	border-radius: 2px;
+	box-shadow: 0 0 5px #000 inset;
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.wc-cs-mydashboard .wc-cs-file-attachments table td input[type='file'] {
+	width :100%;
+}
+
+.wc-cs-mydashboard .wc-cs-user-fields-wrapper {
+	float: left;
+	width: 100%;
+}
+
+.wc-cs-mydashboard h4 {
+	margin-top: 0px;
+	padding: 0px 0px 15px 0px;
+	color: #000;
+	border-bottom: 1px dashed #aaa;
+	font-size: 18px;    
+}
+
+.wc-cs-user-fields-wrapper p {
+	float:left;
+	display: table-row; 
+	width: 100%;
+	padding: 0px;
+	margin-bottom: 15px;
+}
+
+.wc-cs-user-fields-wrapper p label {
+	display: table-cell;   
+	width: 200px;
+	margin: 0;
+	padding: 0;
+	color: #222;
+	font-size: 14px;
+}
+
+.wc-cs-user-fields-wrapper p label .required {
+	margin-left: 0;
+	color: #f00;
+}
+
+.wc-cs-user-fields-wrapper p span {
+	display: table-cell;  
+}
+
+.wc-cs-user-fields-wrapper p span #billing_address_2 {
+	margin-left: 200px;
+}
+
+.wc-cs-user-fields-wrapper p span input,
+.wc-cs-user-fields-wrapper p span select {
+	width: 300px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 3px #ccc inset;    
+}
+
+wc-cs-mydashboard .wc-cs-dashboard-button {
+	float:left;
+	width:100%;
+}
+
+.wc-cs-dashboard-button input[type='submit'] {
+	display: inline-block;
+	margin-left: 200px;
+	padding: 11px 24px 10px;
+	color: #fff;
+	background: #121972;
+	border: none;
+	border-radius: 2px;
+	box-shadow: 0 0 5px #000 inset;
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.wc-cs-dashboard-button input[type='submit']:hover {
+	box-shadow: 0 0 3px #000;
+	background: #121972;
+}
+
+/* Credits table */
+
+.wc-cs-mydashboard-content, 
+.wc-cs-mydashboard-profile {
+	float: left;
+	width: 100%;
+}
+
+.wc-cs-mydashboard-content h4 {
+	margin-top: 0px;
+	padding: 0px 0px 15px 0px;
+	color: #000;
+	border-bottom: 1px dashed #aaa;
+	font-size: 18px;    
+}
+
+.wc-cs-mydashboard-profile table,
+.wc-cs-mydashboard-make-repayment table {
+	width: 100%;
+	border-collapse: collapse;
+	border:1px solid #666;
+}
+
+.wc-cs-mydashboard-profile table tbody td,
+.wc-cs-mydashboard-make-repayment table tbody td {
+	color: #333;
+	width: 50%;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+	border-top: 0;
+}
+
+.wc-cs-mydashboard-profile table tbody tr td:first-child,
+.wc-cs-mydashboard-make-repayment table tbody tr td:first-child {
+	color: #fff;
+	background: #000;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.wc-cs-mydashboard-profile table tfoot td,
+.wc-cs-mydashboard-make-repayment table tfoot td {
+	padding: 10px;
+	border: 1px solid #666;
+}
+
+.wc-cs-mydashboard-profile table tfoot td a, 
+.wc-cs-mydashboard-make-repayment table tfoot td a {
+	float: left;
+	padding: 5px 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	color: #fff;
+	background: #121972;
+	border-radius: 5px;
+	box-shadow: 0 0 3px #000 inset;
+	text-decoration: none;
+}
+
+.wc-cs-mydashboard-profile table tfoot td a:hover,
+.wc-cs-mydashboard-make-repayment table tfoot td a:hover {
+	color: #fff;
+	background: #121972;
+	box-shadow: 0 0 3px #000;
+}
+
+/* Unbilled and Billed Transactions Table */
+
+.wc-cs-mydashboard-view-statements,
+.wc-cs-mydashboard-view-unbilled-txns {
+	float: left;
+	width: 100%;    
+}
+
+.wc-cs-mydashboard-view-statements table,
+.wc-cs-mydashboard-view-unbilled-txns table {
+	width: 100%;
+	border-collapse: collapse;
+	border: none;
+}
+
+.wc-cs-mydashboard-view-statements table thead,
+.wc-cs-mydashboard-view-unbilled-txns table thead {
+	background: #000;
+	text-align: center;
+}
+
+.wc-cs-mydashboard-view-statements table tbody tr:nth-child(2n),
+.wc-cs-mydashboard-view-unbilled-txns table tbody tr:nth-child(2n) {
+	background: #f1f1f1;
+}
+
+.wc-cs-mydashboard-view-statements table thead th,
+.wc-cs-mydashboard-view-unbilled-txns table thead th {
+	padding: 10px;
+	color: #fff;
+	background: #000;
+	border-bottom:1px solid #999;
+	text-align: center;
+	text-transform: capitalize;   
+}
+
+.wc-cs-mydashboard-view-statements table tbody td,
+.wc-cs-mydashboard-view-unbilled-txns table tbody td {
+	padding: 10px;
+	color: #222;
+	/*    border-right: 1px solid #f0f0f0;
+		border-bottom: 1px solid #f0f0f0;*/
+	vertical-align: top;
+	text-align: center;
+}
+
+.wc-cs-mydashboard-view-statements table tbody td:last-child,
+.wc-cs-mydashboard-view-unbilled-txns table tbody td:last-child {
+	border-right: none;
+}
+
+/* Mobile Responsive */
+
+@media screen and (max-width: 768px) {
+
+	.wc-cs-user-fields-wrapper p label {
+		display: block !important;
+		width: 100%;
+		margin-bottom: 5px;
+	}
+
+	.wc-cs-user-fields-wrapper p span {
+		display: block !important;
+	}
+
+	.wc-cs-user-fields-wrapper p span input,
+	.wc-cs-user-fields-wrapper p span select {
+		width: 100% !important;
+	}
+
+	.wc-cs-user-fields-wrapper p span #billing_address_2, 
+	.wc-cs-dashboard-button input[type='submit'] {
+		margin-left: 0;
+		width: 100% !important;
+	}
+
+	/* Unbilled and Billed Transactions Table  mobile responsive */
+
+	.wc-cs-mydashboard-view-statements table,
+	.wc-cs-mydashboard-view-unbilled-txns table {
+		border: 1px solid #f0f0f0;;
+	}
+
+	.wc-cs-mydashboard-view-statements tbody tr,
+	.wc-cs-mydashboard-view-unbilled-txns tbody tr {
+		display: block;
+	}
+
+	.wc-cs-mydashboard-view-statements thead,
+	.wc-cs-mydashboard-view-unbilled-txns thead {
+		display: none;
+	}
+
+	.wc-cs-mydashboard-view-statements tr td::before,
+	.wc-cs-mydashboard-view-unbilled-txns tr td::before {
+		float: left;
+		content: attr(data-title) ": ";
+		font-weight: 700;
+	}
+
+	.wc-cs-mydashboard-view-statements tr td,
+	.wc-cs-mydashboard-view-unbilled-txns tr td {
+		display: block;
+		border-right: 0 !important; 
+		text-align: right !important;
+	}
+	.wc-cs-mydashboard .wc-cs-file-attachments table tr {
+		border-bottom:1px solid #ccc;
+	}
+
+	.wc-cs-mydashboard .wc-cs-file-attachments table td input[type='file']{
+		width: 100%;
+	}
+
+	.wc-cs-mydashboard .wc-cs-file-attachments table td {
+		display: block;
+		border:none !important;
+		width: 100%;
+	}
+	
+	.wc-cs-mydashboard .wc-cs-file-attachments p label {
+		display: inline-block !important;
+		width: auto !important;
+	}
+	
+	.wc-cs-mydashboard .wc-cs-file-attachments p .wc-cs-add-file {
+		display: inline-block;
+		margin-left: 10px;   
+
+	}
+
+}

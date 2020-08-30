@@ -1,0 +1,50 @@
+.wc_cs_rules th, 
+.wc_cs_rules td {
+    padding: 20px 10px 20px 10px;
+}
+/*.wc_cs_rule_criteria_options_group {
+    border-top: 1px solid #ccc;
+    border-bottom: none;
+    border-radius: 5px;
+    padding:10px;
+}*/
+.wc_cs_rule_criteria_options_group .wc_cs_rule_criteria_options_row {
+    background: #fdfdfd;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    margin:0 !important;
+    padding: 10px;
+}
+.wc_cs_rule_criteria_options_group .wc_cs_rule_criteria_options_row select {
+    margin-bottom:5px;
+}
+
+.wc_cs_rule_criteria_options_group .wc_cs_rule_criteria_options_row:first-child {
+     border-top: 1px solid #ccc;    
+}
+
+/*.wc_cs_rule_criteria_options_group .wc_cs_rule_criteria_options_row:last-child {
+    border-bottom-left-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;   
+}*/
+
+.wc_cs_rule_criteria_options_or {
+    text-align: center;
+    margin:10px 0 10px 0 !important; 
+}
+
+.wc_cs_rules td input[type='number']{
+    width:150px !important;
+}
+
+.wc_cs_rules td a.edit {
+    padding: 0 5px !important; 
+}
+
+.wc_cs_rules td a.edit .dashicons-edit-large{
+    color: #00f;
+    font-size:14px;
+    vertical-align: middle;
+}
+
